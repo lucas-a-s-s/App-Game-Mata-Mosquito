@@ -15,7 +15,7 @@ if(nivel === 'normal') {
 } else if(nivel === 'dificil') {
 	//1000
 	criaMosquitoTempo = 1000
-} else if(nivel === 'chucknorris') {
+} else if (nivel === 'chucknorris') {
 	//750
 	criaMosquitoTempo = 750
 }
@@ -42,6 +42,7 @@ var cronometro = setInterval(function() {
 	}
 	
 }, 1000)
+
 
 function posicaoRandomica() {
 
